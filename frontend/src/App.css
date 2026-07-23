@@ -1,0 +1,77 @@
+body {
+    max-width: 480px;
+    margin: 60px auto;
+    padding: 0 24px;
+    font-family: -apple-system, "Segoe UI", system-ui, sans-serif;
+    color: #1a1a1a;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 8px;                
+}
+
+input, button {
+    /* font-family: inherit; */
+    font-size: 14px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #fff;
+}
+
+#addButton {
+    cursor: pointer;
+    border-color: #1a1a1a;
+}
+
+#addButton:hover {
+    background: #1a1a1a;
+    color: #fff;
+}
+
+#timeList {
+    list-style: none;
+    padding: 0;
+    margin: 28px 0 0 0;
+}
+
+#timeList li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 4px;
+    border-bottom: 1px solid #eee;
+    font-variant-numeric: tabular-nums;
+}
+
+#timeList li button {
+    border: none;
+    background: none;
+    color: #ccc;
+    cursor: pointer;
+    padding: 0 4px;
+    font-size: 16px;
+}
+
+#timeList li button:hover {
+    color: #e00;
+}
+
+#statusText {
+    font-size: 13px;
+    color: #888;
+    min-height: 20px;
+}
+
+#statusText.error {
+    color: #e00;
+}

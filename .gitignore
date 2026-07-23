@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+frontend/node_modules/
+
+# python
+venv/
+backend/venv/
+__pycache__/
+*.pyc
+
+# database
+*.db
+
+# build
+dist/
