@@ -1,3 +1,5 @@
+[English](README.md) | [中文(决策解释)](README.zh.md)
+
 # Drink Water Reminder
 
 A small full-stack web app that reminds you to drink water at times you set.
