@@ -4,6 +4,7 @@ A small full-stack web app that reminds you to drink water at times you set.
 Runs a check every second in the browser and fires a system notification when
 a scheduled time comes up.
 
+![screenshot](assets/screenshot.png)
 
 ## Stack
 
