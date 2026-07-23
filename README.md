@@ -17,33 +17,33 @@ a scheduled time comes up.
 Two processes, two terminals.
 
 **Backend**
-```
+````
 cd backend
 python -m venv venv
 venv\Scripts\activate # macOS/Linux: source venv/bin/activate
 pip install fastapi uvicorn
 uvicorn main:app --reload
-```
+````
 
 Runs on http://localhost:8000. API docs at http://localhost:8000/docs.
 
 **Frontend**
-```
+````
 cd frontend
 npm install
 npm run dev
-```
+````
 
 Runs on http://localhost:5173.
 
 ## Project structure
-```
+````
 drink-water/
 ├── frontend/ React app
 │ └── src/App.jsx all UI, state, and API calls
 └── backend/
 └── main.py FastAPI app, SQLite schema, CRUD endpoints
-```
+````
 
 ## API
 
